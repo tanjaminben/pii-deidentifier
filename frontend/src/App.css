@@ -1,0 +1,3 @@
+/* App-level styles delegate to index.css tokens */
+.App { min-height: 100vh; }
+.App[data-toolkit-embedded="true"] { min-height: 0; }

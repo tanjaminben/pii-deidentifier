@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "kind": "sanitized-public-source-snapshot",
+  "createdOn": "2026-10-25",
+  "scope": "Complete exported source and presentation files; original private import and history are not represented.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 80,
+      "sha256": "0ffd7d63c02b09d97db27021f16cb143c1497b481805fd700b3c5abe2001d96e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1176,
+      "sha256": "209fe7b6938b16bcfda4b350b3011bbcd2176e4346457c272bc57f5956ea0a13"
+    },
+    {
+      "path": "docs/images/banner.png",
+      "bytes": 1875223,
+      "sha256": "e46063d035cac1aaaf3fa2a51b7f6ee3d85ec2f5e026565ddbc2d73230635d9d"
+    },
+    {
+      "path": "docs/images/buttons/kofi-static.svg",
+      "bytes": 10065,
+      "sha256": "4181360ad81a84d3cf4559c928f93edf3b12f1a45b2b600ebea002fecf0e5863"
+    },
+    {
+      "path": "docs/images/buttons/kofi.svg",
+      "bytes": 10347,
+      "sha256": "508496ae7e231eede97f9d55184b3cda4510402be6bc1466efbd3f4e07a1ea7f"
+    },
+    {
+      "path": "docs/images/buttons/LICENSE-Barlow.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "docs/images/buttons/mit-license.svg",
+      "bytes": 4735,
+      "sha256": "f7584070ae110a91d47a93dce0a7885a547e8d92a0771c800c43496b8aec0e62"
+    },
+    {
+      "path": "docs/images/buttons/pii-deidentifier.svg",
+      "bytes": 4915,
+      "sha256": "69e95c6046effe0e453a13c866c498aa9c3c062a84b73ec3b78fa945d151ae5e"
+    },
+    {
+      "path": "docs/PROCESSING.md",
+      "bytes": 6523,
+      "sha256": "1b233a8a009d4d2a19e834ccbaa865b29d86caeddc95e52e2c3ded0ac163365a"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "bytes": 310,
+      "sha256": "d373417ea2a8844e3b7a1515aab123e90fbeb4b7225144d55d243d9f6f04f73a"
+    },
+    {
+      "path": "frontend/.npmrc",
+      "bytes": 83,
+      "sha256": "1648fdbbb25bcd13bc79ad659edafbe5a431ffca38b02168ca013ecb4a7b26fe"
+    },
+    {
+      "path": "frontend/eslint.config.mjs",
+      "bytes": 785,
+      "sha256": "c1ba6a255f4abaf53baf73bab2e3ffa30f9ffb565952c8145be3e3f28a76c900"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 985,
+      "sha256": "2ef06dd515bcdac3942419eaa8f09f1debd7060ef9ef1c9ee013161553ebd14d"
+    },
+    {
+      "path": "frontend/jsconfig.json",
+      "bytes": 116,
+      "sha256": "696e14c6f246163a299d7ce3bd1003d52bc0fd4d97629ca468fbd38e8fe1f72f"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 113083,
+      "sha256": "bd410550379a8620f31ef32a15812db0f5cd26f76982b065ac3ab8ab41c2cbac"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 1196,
+      "sha256": "4acfea0fb3e189f2fc30a436b42f3d8f563f218be8de8d047aeec1c365cdf43a"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "bytes": 82,
+      "sha256": "251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5"
+    },
+    {
+      "path": "frontend/public/favicon-32.png",
+      "bytes": 2916,
+      "sha256": "538043480984736028324d37ef244d629f470ca76a5180cb87fe896ff8d7d67a"
+    },
+    {
+      "path": "frontend/public/fonts/anton-400-latin.woff2",
+      "bytes": 18612,
+      "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b"
+    },
+    {
+      "path": "frontend/public/fonts/archivo-400-latin.woff2",
+      "bytes": 34928,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "path": "frontend/public/fonts/archivo-700-latin.woff2",
+      "bytes": 34928,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "path": "frontend/public/fonts/OFL.txt",
+      "bytes": 4382,
+      "sha256": "315f3554cb6a90f60f72dc1fd8870aa1f8f60429a57cffcf78dcbeaf0ef2851f"
+    },
+    {
+      "path": "frontend/public/fonts/spacegrotesk-400-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/public/fonts/spacegrotesk-600-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/public/fonts/spacegrotesk-700-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/public/pdf.worker.min.mjs",
+      "bytes": 1410676,
+      "sha256": "d3121a6e99b3fbace0ab94574dc0d7353ad1da664e59fa77a2d8b80ee93c48e1"
+    },
+    {
+      "path": "frontend/public/verify-log/index.html",
+      "bytes": 369,
+      "sha256": "9ca6e61026d3b134934326de5b4b185b9215133b0a1d9b4de5503d6c6f1054a5"
+    },
+    {
+      "path": "frontend/README.md",
+      "bytes": 703,
+      "sha256": "ec751acf4576f5656ddc918f65a1a9146e6237b6c27ab58bfc2f370e0c36bc89"
+    },
+    {
+      "path": "frontend/src/App.css",
+      "bytes": 134,
+      "sha256": "0a81bd91c265b44188d6857b075dc1c9463d4571947146efba4a7e7c0fa25c0e"
+    },
+    {
+      "path": "frontend/src/App.jsx",
+      "bytes": 998,
+      "sha256": "6837d76b4390afb0c5c29888c420d6787433c05207ee5164a8112b742d158e21"
+    },
+    {
+      "path": "frontend/src/assets/fonts/anton-400-latin.woff2",
+      "bytes": 18612,
+      "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b"
+    },
+    {
+      "path": "frontend/src/assets/fonts/archivo-400-latin.woff2",
+      "bytes": 34928,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "path": "frontend/src/assets/fonts/archivo-700-latin.woff2",
+      "bytes": 34928,
+      "sha256": "8f704806dbedeaaeca334b11ec348bc3ac3a439d6431544b3afb54f534ee4967"
+    },
+    {
+      "path": "frontend/src/assets/fonts/spacegrotesk-400-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/src/assets/fonts/spacegrotesk-600-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/src/assets/fonts/spacegrotesk-700-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "bytes": 36571,
+      "sha256": "0c663c9c402aebfb9fdaaadee309e6cce857ba19e079cac12035f8ad6227e7c2"
+    },
+    {
+      "path": "frontend/src/index.jsx",
+      "bytes": 555,
+      "sha256": "134613d942bfe37921682e2c972474b186dfc4f6f6b42dce14c6026067384472"
+    },
+    {
+      "path": "frontend/src/redactorium/components/ActionBar.jsx",
+      "bytes": 3290,
+      "sha256": "b1ed318f307ba9d94ba56a7541402f006e365c2d1fcf44a1201f2275076818e7"
+    },
+    {
+      "path": "frontend/src/redactorium/components/BatchView.jsx",
+      "bytes": 10782,
+      "sha256": "f1d1a70ba9abd764767184d813fae57d6ed79de35df529368fc3e1ed8ddad505"
+    },
+    {
+      "path": "frontend/src/redactorium/components/CustomRulesPanel.jsx",
+      "bytes": 5336,
+      "sha256": "f6e0f871ce716a1f5c094fd2784ef844746d6618dfbc86e48ef5b2803b4faf88"
+    },
+    {
+      "path": "frontend/src/redactorium/components/DetectionView.jsx",
+      "bytes": 1153,
+      "sha256": "21e062f37014188e966cff7fab54c395d3717d333a46c529cee19151c855725a"
+    },
+    {
+      "path": "frontend/src/redactorium/components/FileDropZone.jsx",
+      "bytes": 2673,
+      "sha256": "56ca4183cd1ced9e932e38b182467af233116da4128af717554fcb5ff5fec6ed"
+    },
+    {
+      "path": "frontend/src/redactorium/components/FindingsTable.jsx",
+      "bytes": 5289,
+      "sha256": "a40a671960363934dcb4c96a2bc4a57500df9c62dc9913f1c05583ce5ca37b2a"
+    },
+    {
+      "path": "frontend/src/redactorium/components/Footer.jsx",
+      "bytes": 762,
+      "sha256": "f92786a421ff9278c3571ad0f4a1a97543c23e9eb8aa6c9eaba30f33d66c115a"
+    },
+    {
+      "path": "frontend/src/redactorium/components/Masthead.jsx",
+      "bytes": 1370,
+      "sha256": "386284f87b8ae69389a97bc9ae8665134810e42e5fc47ec02ddee50056f00e15"
+    },
+    {
+      "path": "frontend/src/redactorium/components/PresetsBar.jsx",
+      "bytes": 2550,
+      "sha256": "2d9c918ed136a77231fd407c7ff4030a7e386b550387a7fabb52e22f2a0a5900"
+    },
+    {
+      "path": "frontend/src/redactorium/components/TreatmentLegend.jsx",
+      "bytes": 927,
+      "sha256": "dc89052ba87a64f5745b73615a354a4ffb6adbca5eb37b1c8cce73f0af864ec4"
+    },
+    {
+      "path": "frontend/src/redactorium/constants/testIds.js",
+      "bytes": 1079,
+      "sha256": "ea704ab5d12bf85ec104deb57b18d50826efd1421cde5b90b96a222d84ddc897"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/customRules.js",
+      "bytes": 1836,
+      "sha256": "be786411d40f98f7d5af01076ae8106cd5f48d7de82056182561f62374885bea"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/detector.js",
+      "bytes": 7252,
+      "sha256": "432e6e2f67f1b3312f08d421eb4b379fb96de419f72fa4d7de1d1a9cfb4fb88d"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/docxHandler.js",
+      "bytes": 22958,
+      "sha256": "21f23828dbf05e2ad3331258404469c480f7b0bb9c314d714ac1105695928aa8"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/download.js",
+      "bytes": 255,
+      "sha256": "eda480e5f36e518a62ce16cfff5b6b2c42724ab3052c62ddb43c674eb927ee0c"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/exporters.js",
+      "bytes": 11017,
+      "sha256": "edaf4d1ee9b035be82c85d8f99c57d215c108339b5a06bb090a2ac018111fa7c"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/legend.js",
+      "bytes": 994,
+      "sha256": "1b1fc706b8f891d5b477ca9cf82fbe3b54ab391237e19b72ed02a7525c12ac5c"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/parsers.js",
+      "bytes": 9587,
+      "sha256": "f996bb7a5638a654c1530bfc0c3ee4b0fe14bf844f0206b684d9886939d1c4de"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/pdfText.js",
+      "bytes": 1947,
+      "sha256": "b1564bc1cb28e2ff039f4cccfd8a926712830e17284f8c041af395cbc379effd"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/piiPatterns.js",
+      "bytes": 16062,
+      "sha256": "06136741c8dae15ff1775aee2c82a0493660eaa2234c6052c4fbddd7e1642ab5"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/places.js",
+      "bytes": 2046,
+      "sha256": "15a7e1effd3ca7a5d5e5d885a7d96d567ea3c605cec35c9e5f49ac87452fa74a"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/plan.js",
+      "bytes": 2415,
+      "sha256": "259bdbb0073d9b3d5e6ce52bdbc136670678617250f2df29e55fce5d4eb3533c"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/presets.js",
+      "bytes": 2287,
+      "sha256": "211b9f64278ff4b5a56df452910f425e38cb64eac0fcad4409850aecb9c59f5d"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/textScan.js",
+      "bytes": 17951,
+      "sha256": "46ebd8dfd22608bb285701dfdad1836de40d649c58bc75253f16abbaab89a42b"
+    },
+    {
+      "path": "frontend/src/redactorium/lib/transformers.js",
+      "bytes": 19162,
+      "sha256": "82f0ddaf05821dc8e1c5048632ca440534c919d394943655427cfe1bcddb157f"
+    },
+    {
+      "path": "frontend/src/redactorium/RedactoriumPage.jsx",
+      "bytes": 16318,
+      "sha256": "51f631cd0701e7255a88fe4f7a6c6b270ac73bac3756e5749069e134dc5b72cb"
+    },
+    {
+      "path": "frontend/tailwind.config.js",
+      "bytes": 2242,
+      "sha256": "a141b8c6375322a5040d7c0b6577c94bcfdc1a14457f961f081660b67ed31795"
+    },
+    {
+      "path": "frontend/tests/adversarial-bt96.test.mjs",
+      "bytes": 9018,
+      "sha256": "6cca647865c1bbafb0e0f3becc2d94b94c19e04e42cd38e157f1a5ef40d74323"
+    },
+    {
+      "path": "frontend/tests/adversarial-files-bt96.test.mjs",
+      "bytes": 6792,
+      "sha256": "cfdafcd1ec495219463b44447cd4c738247217ec1c8b95910ebf7b40d07d986f"
+    },
+    {
+      "path": "frontend/tests/document-identity.test.mjs",
+      "bytes": 10154,
+      "sha256": "1d35655dde3166428281c814f44aef04df6476385eabd0b6c1cd0c4d956af9aa"
+    },
+    {
+      "path": "frontend/tests/docx-export-regressions.test.mjs",
+      "bytes": 4591,
+      "sha256": "1ffeaf2bd367e088945ecb21db6bed26c05f02e8f8669f1a5327388643a9a0da"
+    },
+    {
+      "path": "frontend/tests/fixtures.mjs",
+      "bytes": 11162,
+      "sha256": "c3be7e11cbfbcd8266e36631fb4cfd7ae9478690c2a750d18c02d532fea5ac07"
+    },
+    {
+      "path": "frontend/tests/legend.test.mjs",
+      "bytes": 1203,
+      "sha256": "36fee1eee9413588000ff7ba9de144ea06a21bc6bf4c3f3708adbba30026a8e5"
+    },
+    {
+      "path": "frontend/tests/pdf-export-bt96.test.mjs",
+      "bytes": 4098,
+      "sha256": "7f74aa5c67ad977316c0e61075d5ba6999917c59073881deffc125fb5dc6e90b"
+    },
+    {
+      "path": "frontend/tests/pdf-text.test.mjs",
+      "bytes": 3741,
+      "sha256": "a439500390914fdf5038591e878519e26a37f54fdb097046c55d7e276e0fb721"
+    },
+    {
+      "path": "frontend/tests/pipeline.test.mjs",
+      "bytes": 14341,
+      "sha256": "b696b227ff9de957238a1a5075d4656294eca9692c232ea3946d7ab63437bed6"
+    },
+    {
+      "path": "frontend/tests/relationship-forms.test.mjs",
+      "bytes": 6305,
+      "sha256": "10a10c76b91e8ef8ada45df928c3f96fdd3ff60ff6433ab8be2dfaec3be7a13f"
+    },
+    {
+      "path": "frontend/tests/review-fixes.test.mjs",
+      "bytes": 17107,
+      "sha256": "333ebdf88b478b44f39d1f7a6dd730bdbedb725e18847f68925b4d2847af730d"
+    },
+    {
+      "path": "frontend/tests/textScan.test.mjs",
+      "bytes": 8379,
+      "sha256": "c498baa4e8506ee6d21de26ddb1c6c081bbc63f10e54b91e826c23688895c6c8"
+    },
+    {
+      "path": "frontend/vite.config.mjs",
+      "bytes": 4750,
+      "sha256": "cc7773b4bab65745b143cce41aeb4e020ae82f0e7a9269242f61377906db4661"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "027f955c57cd61c45a41f75f53642e90906f32ac3673c68ccce713b0fe2c47aa"
+    },
+    {
+      "path": "licenses/pdfjs-dist-Apache-2.0.txt",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3361,
+      "sha256": "7894e33b67524babf2574334244fda70ca44157e2413a3a244e13509b9b78410"
+    },
+    {
+      "path": "scripts/verify-source.mjs",
+      "bytes": 1837,
+      "sha256": "6b5b352a10e7f94fb66329e18d42d2a376dabdeb458c857a536eebd9389ff633"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 431,
+      "sha256": "18fd718410dcbd5b26aa36254db77033d784671caeebbca9740b50bbe7604d6c"
+    },
+    {
+      "path": "SOURCE-SNAPSHOT.md",
+      "bytes": 1185,
+      "sha256": "03b0e0abf2b981aa50687a5f0268b1ebf99b47fad9f6ea2518cfb0a4d9c2f1f7"
+    }
+  ]
+}
