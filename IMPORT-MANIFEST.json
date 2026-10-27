@@ -281,8 +281,9 @@
     },
     {
       "path": "frontend/src/redactorium/lib/parsers.js",
-      "bytes": 9587,
-      "sha256": "f996bb7a5638a654c1530bfc0c3ee4b0fe14bf844f0206b684d9886939d1c4de"
+      "bytes": 9571,
+      "sha256": "b6ec17e2915b194ae91d3d794cb92415f1e7c3f40a4fb3511423b0e139074363",
+      "supersedesSha256": "f996bb7a5638a654c1530bfc0c3ee4b0fe14bf844f0206b684d9886939d1c4de"
     },
     {
       "path": "frontend/src/redactorium/lib/pdfText.js",
@@ -301,8 +302,9 @@
     },
     {
       "path": "frontend/src/redactorium/lib/plan.js",
-      "bytes": 2415,
-      "sha256": "259bdbb0073d9b3d5e6ce52bdbc136670678617250f2df29e55fce5d4eb3533c"
+      "bytes": 2412,
+      "sha256": "0b3fe23470b984aec4eb9bcdcc9844cfbcb3c6109180c1336cdba21c5969ed66",
+      "supersedesSha256": "259bdbb0073d9b3d5e6ce52bdbc136670678617250f2df29e55fce5d4eb3533c"
     },
     {
       "path": "frontend/src/redactorium/lib/presets.js",
@@ -321,8 +323,9 @@
     },
     {
       "path": "frontend/src/redactorium/RedactoriumPage.jsx",
-      "bytes": 16318,
-      "sha256": "51f631cd0701e7255a88fe4f7a6c6b270ac73bac3756e5749069e134dc5b72cb"
+      "bytes": 16327,
+      "sha256": "447976c6e945689a7172158dfab169ed81de85f3fee8d0089cc7de889e1e0360",
+      "supersedesSha256": "51f631cd0701e7255a88fe4f7a6c6b270ac73bac3756e5749069e134dc5b72cb"
     },
     {
       "path": "frontend/tailwind.config.js",
@@ -424,5 +427,20 @@
       "bytes": 1185,
       "sha256": "03b0e0abf2b981aa50687a5f0268b1ebf99b47fad9f6ea2518cfb0a4d9c2f1f7"
     }
-  ]
+  ],
+  "approvedProseReview": {
+    "reviewId": "ben-tan-prose-20261026-33459e7e",
+    "decisionIds": [
+      "R015",
+      "R018",
+      "R019",
+      "R020"
+    ],
+    "sourceCommit": "d997155ffba4142f308c0b764a6c980d0876fb56",
+    "files": [
+      "frontend/src/redactorium/lib/parsers.js",
+      "frontend/src/redactorium/lib/plan.js",
+      "frontend/src/redactorium/RedactoriumPage.jsx"
+    ]
+  }
 }
