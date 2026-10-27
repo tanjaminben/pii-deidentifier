@@ -163,7 +163,7 @@ export async function parsePDF(file) {
     for (const line of pdfTextLines(content.items)) lines.push(line);
   }
   if (!lines.some((l) => l.trim())) {
-    throw new Error("This PDF has no text Redactorium can read. It is probably a scan, which is a picture of text.");
+    throw new Error("PII De-identifier could not find readable text in this PDF. It may be a scan.");
   }
   return {
     kind: "text",

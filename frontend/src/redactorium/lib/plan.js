@@ -31,7 +31,7 @@ export function fileNotice(parsed) {
     notes.push(`This workbook has ${meta.sheetNames.length} sheets. Redactorium reads “${meta.sheetName}”, and the clean file contains only that sheet.`);
   }
   if (parsed.format === "pdf") {
-    notes.push("The clean file is a new PDF with only the text: the layout, images, and attachments stay behind. Text the original hid, like white text or words under a black box, becomes visible, so read it before you send it.");
+    notes.push("The exported PDF contains text only. It omits the original layout, images, and attachments. Review the exported PDF for text that was hidden in the original, such as white text or text covered by a black box.");
   }
   if (meta.cleaned) {
     const c = meta.cleaned;

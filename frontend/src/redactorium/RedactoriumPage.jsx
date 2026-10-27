@@ -193,7 +193,7 @@ export default function Redactorium({ embedded = false }) {
         <ol className="red-steps" aria-label="How it works">
           <li><span className="red-step-num">01</span><strong>Drop a file</strong><span>A spreadsheet, a Word file, a PDF, or a text or log file.</span></li>
           <li><span className="red-step-num">02</span><strong>Check what it found</strong><span>Each column, and each kind of data found in the text, with the rule behind it.</span></li>
-          <li><span className="red-step-num">03</span><strong>Choose and download</strong><span>Pick what happens to each one, then get the clean file and a record of the changes.</span></li>
+          <li><span className="red-step-num">03</span><strong>Choose and download</strong><span>Choose which values to change, then download the processed file and a record of the changes.</span></li>
         </ol>
         <div className="tool-mode-switch" role="tablist" aria-label="File mode"
           onKeyDown={(event) => {
